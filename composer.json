@@ -1,6 +1,9 @@
 {
     "name": "cheanizer/laravel-doc-template",
     "description": "Library for templating like mail merge for PHP with RTF file.",
+    "keywords": ["laravel","document","word","php","doc"],
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "adhi.setyawan",
