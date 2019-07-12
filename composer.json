@@ -1,0 +1,29 @@
+{
+    "name": "cheanizer/laravel-doc-template",
+    "description": "Library for templating like mail merge for PHP with RTF file.",
+    "authors": [
+        {
+            "name": "adhi.setyawan",
+            "email": "stw.adhi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cheanizer\\DocTemplate\\": "src/"
+        }
+    },
+    "extra": {
+       "laravel": {
+           "providers": [
+               "Cheanizer\\DocTemplate\\DocTemplateServiceProvider"
+           ],
+           "aliases": {
+               "DocTemplate" : "Cheanizer\\DocTemplate\\Facade"
+           }
+       }
+   },
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.5.0"
+    }
+}
